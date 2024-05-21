@@ -69,8 +69,11 @@ body {
   margin-bottom: 20px;
 }
 .close-btn {
+  width: 100px;
   color: #222;
   font-size: 20px;
+  border: 1px solid ;
+  border-radius: 10px;
 }
 .modal-title {
   margin-bottom: 15px;
