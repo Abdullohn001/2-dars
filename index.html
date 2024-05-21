@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>modal</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Varela&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="wrapper">
+      <button class="btn show-btn" id="show-button">Show Modal</button>
+
+      <div class="modal hidden" id="modal">
+        <div class="modal-header">
+          <h3>I love Saudia Arabia </h3>
+          <button class="btn close-btn" id="close-btn">
+            <i class="fas fa-close"></i>
+          </button>
+        </div>
+
+        <div class="modal-body">
+          <h2 class="modal-title">Modal title</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis
+            placeat odio nam nostrum sed corporis? Accusamus eum facilis
+            laboriosam officia ipsam repudiandae. Nihil provident quibusdam nam
+            vero repellat architecto natus exercitationem fugit aut dolorum,
+            placeat consequuntur sequi eum magnam consequatur quidem numquam
+            debitis, officia ipsum non reprehenderit culpa praesentium
+            laboriosam.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="overly hidden" id="overly"></div>
+    <script src="./app.js"></script>
+  </body>
+</html>
